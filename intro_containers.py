@@ -6,7 +6,7 @@
 # back to strings
 # string can be seen as list (container) of characters
 s = "Python"
-s[0]
+s[0]  # indexing from 0, not from 1
 s[0] = 'C'
 
 # methods
@@ -18,6 +18,10 @@ s[0] = 'C'
 # slicing
 s = "Hello World"
 len(s)
+s[len(s)-1]
+s[-1]
+s[-2]
+
 s[1:11]
 s[1:]
 s[0:5]
@@ -100,7 +104,7 @@ personal_data['name'] = 'Monty Python'
 personal_data['email'] = 'monty@python.org'
 personal_data['age'] = 42
 
-d = dict(a=1, b=2)
+d = dict(a=1, b=2, c=3)
 
 # loop over keys
 for k in d:
@@ -116,7 +120,13 @@ for k, v in d.items():
 
 
 # set
-s = set()
-s.add(1)
-s.add(2)
-s.add(1)
+s1 = set()
+s1.add(1)
+s1.add(2)
+s1.add(1)
+
+s2 = {1, 3}
+
+s1 & s2
+s1 | s2
+s1 - s2

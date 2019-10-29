@@ -14,9 +14,11 @@ def func_name(a, b):  # parameters are optional
     return result  # optional
 
 
+print("Something else")
+
 # type hints
-def func_name(a: list) -> int:
-    return len(a)
+#def func_name(a: list) -> int:
+#    return len(a)
 
 
 # debugging

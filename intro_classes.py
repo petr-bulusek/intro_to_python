@@ -4,10 +4,14 @@
 """
 
 # object oriented programming
-# object: container with some data and methods (functionality around that data)
-# a class defines how these objects look like
-# we have seen already how to call these methods on strings, lists, ...
 
+# 1 encapsulation
+# 2 inheritance
+# 3 polymorfism
+
+# object: container with some data and methods (functionality around that data)
+# a class defines how these objects look like and behave
+# we have seen already how to call these methods on strings, lists, ...
 
 
 class Cat:

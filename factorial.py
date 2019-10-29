@@ -13,12 +13,14 @@ def factorial(n):
 
 
 # with recursion
-def factorial(n):
-    if n == 0 or n == 1:
-        return 1
-    return n * factorial(n-1)
+#def factorial(n):
+#    if n == 0 or n == 1:
+#        return 1
+#    return n * factorial(n-1)
+#
+#
+## one line
+#def factorial(n):
+#    return 1 if n in (0, 1) else n * factorial(n-1)
 
-
-# one line
-def factorial(n):
-    return 1 if n in (0, 1) else n * factorial(n-1)
+factorial(5)

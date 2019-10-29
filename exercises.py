@@ -32,3 +32,15 @@ prime_numbers_under(n)
 
 # for i in prime_numbers():
 #    do_something(i)
+
+
+# generate sample csv data in form
+first name, last name, age [18, 100], probability to spend money [0, 1)
+
+use
+pip install names
+import names
+names.get_full_name
+import random
+random.randrange
+random.random
