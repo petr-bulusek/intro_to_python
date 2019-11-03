@@ -4,12 +4,16 @@
 """
 
 # implement following functions
-count_capital_letters_in_string(string)
+def count_capital_letters_in_string(string):
+    # use upper() method on each char
+    
 
-reverse_string(string)
-# (bonus: without slicing -> with loop, without loop)
+def reverse_string(string):
+    return string[::-1]
 
-is_palyndrom(string) -> True
+
+def is_palyndrom(string) -> True:
+    # string == its reverse
 
 def factorial(n):
     result = 1
@@ -17,18 +21,23 @@ def factorial(n):
        result = result * i   
     return result
 
-inner_product(a: list, b: list)
+def inner_product(x: list, y: list):
+    'inner x1*y1 + x2*y2 + x3*y3'
 
-distance_between_two_vectors(a: list, b: list)
+def distance_between_two_vectors(x: list, y: list):
+    'dist math.sqrt((x1 - y1)**2 + (x2 - y2)**2 + (x3 - y3)**2)'
 
 def eval_polynomial(value, coefficients):
-    pass
+    
 
 
-is_number(string)
-is_letter(string)
-is_prime_number(n)
-prime_numbers_under(n)
+def is_number(string):
+    
+def is_letter(string):
+    
+def is_prime_number(n):
+    
+def prime_numbers_under(n):
 
 # for i in prime_numbers():
 #    do_something(i)
