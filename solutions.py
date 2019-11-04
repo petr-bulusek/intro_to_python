@@ -36,7 +36,11 @@ def inner(x, y):
     return acc
 
 def inner(x, y):
-    return sum([xi + yi for (xi, yi) in zip(x, y)])
+    return sum([xi * yi for (xi, yi) in zip(x, y)])
+
+def inner(x, y):
+    import numpy as np
+    return np.dot(x, y)
 
 
 # How can we calculate how many capital letters are in a string?
