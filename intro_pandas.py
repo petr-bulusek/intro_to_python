@@ -21,9 +21,13 @@ df.describe()
 df.index
 df.columns
 
+col = df.columns[4]
+df[col]
+
+df[col].value_counts()
+
 df = df.set_index('First Name')
 df.set_index('First Name', inplace=True)
-
 df.sort_index(inplace=True)
 
 # loc used with index values, should be preferred way to index things
