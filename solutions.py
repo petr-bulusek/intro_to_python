@@ -67,6 +67,14 @@ def poly(x, coeffs):
         val += coeff*x**i
     return val
 
+
+def distance_between_two_vectors(x: list, y: list):
+    result = 0
+    for i in range(len(x)):
+        result += (x[i] - y[i])**2
+    return result**0.5
+
+
 def distance_between_two_vectors(x: list, y: list):
     return sum([(x[i] - y[i])**2 for i in range(len(x))])**0.5
 
