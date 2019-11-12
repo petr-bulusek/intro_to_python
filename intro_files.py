@@ -5,7 +5,7 @@
 
 f = open('path/to/file', mode='r/w/a', encoding='utf-8')
 
-# do something
+# do something with file via file handle
 
 f.close()
 

@@ -29,6 +29,15 @@ json_str = json.dumps(d)
 d2 = json.loads(json_str)
 
 
+d = {'key': 'value'}
+
+with open('out.json', 'w') as f:
+    json.dump(d, f)
+
+with open('out.json') as f:
+    d2 = json.load(f)
+
+
 res = requests.get('https://httpbin.org/json')
 text = res.text
 d = json.loads(text)
