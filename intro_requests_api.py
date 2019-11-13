@@ -43,3 +43,10 @@ text = res.text
 d = json.loads(text)
 
 d = res.json()
+
+
+# some public API
+
+api_url = 'https://api.coindesk.com/v1/bpi/currentprice.json'
+res = requests.get(api_url)
+j = res.json()

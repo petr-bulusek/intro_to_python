@@ -3,6 +3,15 @@
 @author: pablo maldonado, petr bulusek
 """
 
+# Scraping steps:
+# check if some API exists
+# check if some library exists, you are probably not the only one, if it is popular website
+# if dynamically created, check calls to backend APIs
+# if no other option, try with scraping the html
+# if very dynamically oriented with javascript, you will probably need Selenium library
+# be carefull with many requests, infinite loops etc.
+
+
 # BeautifulSoup docs:
 # https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
